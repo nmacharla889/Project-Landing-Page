@@ -160,7 +160,7 @@ blockquote>p:nth-child(2) {
 
 .text>p:first-child {
     color: white;
-    font-weight: ;
+    font-weight: lighter;
     font-size: 28px;
     padding: 0;
     margin: 0;
