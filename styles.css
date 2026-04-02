@@ -7,10 +7,10 @@ body {
 
 .header {
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 20px 200px;
     margin: 0;
-    padding-bottom: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo,
@@ -27,12 +27,15 @@ li {
     list-style-type: none;
 }
 
-.ul {
+ul {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
 }
 
+.logo {
+    font-weight: bold;
+}
 
 /*-----------------------------------------------------------*/
 
@@ -41,10 +44,17 @@ li {
     display: flex;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 64px;
+    padding-bottom: 180px;
+
+    justify-content: space-between;
     margin: 0;
-    padding-bottom: 0;
+    gap: 48px;
+    align-items: center;
 
 }
+
+
 
 .subject {
     display: flex;
@@ -62,12 +72,12 @@ li {
     padding-bottom: 10px;
 }
 
-.subject button {
+.subject>button {
     display: flex;
     justify-content: flex-start;
     max-width: fit-content;
     border-radius: 7px;
-    border-color: #3882f6;
+    border: none;
     padding: 7px 30px;
 }
 
@@ -77,10 +87,6 @@ footer {
     background-color: #1f2937;
 }
 
-button {
-    background-color: #3882f6;
-    color: white;
-}
 
 /*-----------------------------------------------------------*/
 .subject>p:first-child {
@@ -159,7 +165,7 @@ blockquote>p:nth-child(2) {
     align-items: center;
     background-color: #3882f6;
     border-radius: 7px;
-    padding: 50px;
+    padding: 40px 150px;
     margin: 100px 250px;
 }
 
@@ -182,9 +188,12 @@ blockquote>p:nth-child(2) {
 }
 
 .additional-information>button {
-    border: 1.5px;
-    border-color: white;
+    border: 1.5px solid white;
+    background-color: #3882f6;
     border-radius: 8px;
+    padding: 7px 30px;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -195,5 +204,5 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 40px;
+    padding: 30px 40px;
 }
