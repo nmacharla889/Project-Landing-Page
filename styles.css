@@ -14,19 +14,6 @@ body {
 
 }
 
-.logo img {
-    display: block;
-    height: auto50px;
-    width: auto;
-}
-
-.logo {
-    flex-shrink: 0;
-    /* Prevents the logo from being squished in a flexbox */
-    max-width: 200px;
-    /* Sets a safety limit on how wide the logo can be */
-}
-
 ul {
     list-style-type: none;
     text-decoration: none;
@@ -37,7 +24,7 @@ ul {
 
 .main {
     display: flex;
-    padding: 150px 200px;
+
 
 }
 
